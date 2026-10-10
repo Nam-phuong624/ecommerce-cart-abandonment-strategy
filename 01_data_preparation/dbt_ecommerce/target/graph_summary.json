@@ -1,0 +1,1 @@
+{"_invocation_id": "7766178e-8274-4cff-8a8b-00b35156befa", "linked": {"0": {"name": "source.ecommerce.raw.events", "type": "source", "succ": [1]}, "1": {"name": "model.ecommerce.stg_events", "type": "model", "succ": [2, 3]}, "2": {"name": "model.ecommerce.stg_sessions", "type": "model"}, "3": {"name": "model.ecommerce.fct_session_funnel", "type": "model"}}}
