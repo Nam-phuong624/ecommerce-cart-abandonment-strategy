@@ -1,0 +1,96 @@
+# Data files (large, download separately)
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.gz
+data/processed/*.duckdb
+data/processed/*.parquet
+data/processed/*.db
+
+# But keep structure placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# dbt
+01_data_engineering/dbt_ecommerce/target/
+01_data_engineering/dbt_ecommerce/dbt_packages/
+01_data_engineering/dbt_ecommerce/logs/
+*.user.yml
+profiles.yml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Credentials & secrets
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+.cache/
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Local scratch
+scratch/
+playground/
+sandbox/
+*.user.yml
+profiles.yml
+!profiles.yml.example
+
+# Temporary Root Scripts generated during analysis
+create_master_nb.py
+generate_direct_collapse_chart.py
+run_deep_eval.sh
+data
+project_tree.md
