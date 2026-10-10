@@ -1,0 +1,13 @@
+project_name: "triple_leak_ml_recovery"
+data:
+  db_path: "../../data/processed/ecommerce.duckdb"
+  train_start: "2019-10-01"
+  train_end: "2019-11-10"
+  val_start: "2019-11-11"
+  val_end: "2019-11-20"
+  test_start: "2019-11-21"
+  test_end: "2019-11-30"
+  exclude_dates: ["2019-11-15"]
+model:
+  random_state: 42
+  target: "is_abandoned"
